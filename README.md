@@ -213,7 +213,7 @@ mosquitto_sub -h localhost -t devices/stm32f767-bio-001/telemetry -v
 - Make sure publisher and subscriber use the same broker/topic.
 - Public brokers can be rate limited or temporarily unavailable; try local Mosquitto.
 
-## Resume-friendly project description
+## Project Description
 
 Developed a real-time biometric IoT monitoring system using STM32F767 and an I2C MAX30101/MAX32664 pulse oximeter, implementing reliable heart-rate/SpO2 acquisition, UART telemetry framing, and MQTT-based cloud streaming for remote health-data visualization.
 
